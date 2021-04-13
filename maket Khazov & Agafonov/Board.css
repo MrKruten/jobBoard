@@ -5,7 +5,6 @@
 .App {
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
-
 }
 
 header {
@@ -73,13 +72,6 @@ ul {
     background-position: center;
 }
 
-.restoreButton{
-    background-image: url(images/restore.svg);
-    background-size: 14px;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
 .addButton img {
     width: 35px;
     height: 35px;
@@ -139,73 +131,22 @@ select:active {
     border-color: grey;
 }
 
-aside button, select {
-    width: 165px;
-}
-
-aside ul li:nth-child(4) {
+aside ul li:nth-child(3) {
     height: 40px;
+    margin: 0;
 }
 
 aside ul li:last-child {
-    margin-top: 6rem;
+    margin-top: 10rem;
 }
 
 .jobBoard button {
-    min-height: 40px;
+    height: 40px;
     font-size: 20px;
     margin-right: 12px;
-    height: auto;
 }
 
 .jobBoard .editButton,
-.jobBoard .removeButton,
-.jobBoard .restoreButton{
+.jobBoard .removeButton {
     width: 40px;
-}
-
-.addEditForm{
-    background-color: rgba(0,0,0,0.7);
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 12px;
-    opacity: 0;
-    pointer-events: none;
-    transition: 0.4s;
-}
-
-.addEditForm.active{
-    opacity: 1;
-    pointer-events: all;
-}
-
-.addEditForm .modal{
-    padding: 20px;
-    background-color: white;
-    border: 2px solid;
-    border-radius: 12px;
-    transform: scale(0.5);
-    transition: 0.4s all;
-    width: auto;
-    max-width: 55%;
-}
-
-.modal.active{
-    transform: scale(1);
-    pointer-events: all;
-}
-
-.modal input,textarea{
-    margin-left: 10px;
-}
-
-.descriptionArea{
-    width: 80%;
-    height: 8rem;
 }
