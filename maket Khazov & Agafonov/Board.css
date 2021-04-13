@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-body {
+.App {
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
 }
@@ -14,7 +14,6 @@ header {
 }
 
 h1 {
-    margin-left: 35px;
     text-transform: uppercase;
 }
 
@@ -23,7 +22,6 @@ aside {
     padding: 10px;
     margin: 0 10px 10px 10px;
     border-radius: 15px;
-    /*height: 76%;*/
     background-color: #A691DA;
 }
 
@@ -102,6 +100,32 @@ select {
     outline: none;
 }
 
+.type{
+    height: auto;
+    width: auto;
+    font-size: 14px;
+    margin-right: 12px;
+    border-radius: 15px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    background-color: #eeeaea;
+    padding: 10px 1rem;
+    margin-top: 0;
+    text-align: center;
+    align-items: center;
+}
+
+.description{
+    text-align: left;
+    font-size: 18px;
+}
+
+.topicButton{
+    width: auto;
+    min-width: 150px;
+}
+
 button:active,
 select:active {
     border-color: grey;
@@ -117,10 +141,9 @@ aside ul li:last-child {
 }
 
 .jobBoard button {
-    width: 150px;
     height: 40px;
     font-size: 20px;
-    margin-right: 10px;
+    margin-right: 12px;
 }
 
 .jobBoard .editButton,
