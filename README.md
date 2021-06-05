@@ -1,3 +1,3 @@
 Лабораторная работа - "Доска объявлений"
-  cd proj
-  py manage.py runserver
+1 cd proj
+2 py manage.py runserver
